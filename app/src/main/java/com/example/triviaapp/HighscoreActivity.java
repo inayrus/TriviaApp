@@ -36,7 +36,7 @@ public class HighscoreActivity extends AppCompatActivity implements HighscoreReq
         ListView highscoreView = findViewById(R.id.highscoreView);
         highscoreView.setAdapter(adapter);
 
-        // display the new high score differently, like below the list? maybe?
+        // display the user's new score below the list
         String username = highscore.getName();
         int score = highscore.getScore();
 
